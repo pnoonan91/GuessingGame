@@ -1,0 +1,74 @@
+.center {
+  text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+img {
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+#footer {
+    width: 100%;
+    border-top: solid 1px black;
+    background-color: rgba(255,255,255,0.2);
+    position: fixed;
+    bottom: 0;
+    font-size: 12px;
+    font-family: Helvetica;
+    letter-spacing: -0.5px;
+    font-weight: bold;
+    font-style: italic;
+}
+#input-parent{
+    width: 160px;
+    margin: 5% auto 50px;
+    position: relative;
+}
+.guess{
+    display: inline;
+    border: 1px solid black;
+    font-size: 60px;
+    padding: 0 25px;
+    border-radius: 10%;
+    background: rgba(255,255,255,0.2);
+}
+#player-input{
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 160px;
+    height: 160px;
+    font-size: 60px;
+    background: rgba(255,255,255,0.4);
+}
+#submit{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 100px;
+    left: 120px;
+}
+body{
+    background-image: url(sheep.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#main-title{
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 2px #7a7a7a;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    letter-spacing: -8px;
+}
+h3{
+    font-size: 18px;
+    font-family: Helvetica;
+    letter-spacing: -0.5px;
+}
+a{
+    color: black;
+}
